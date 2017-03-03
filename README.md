@@ -1,7 +1,7 @@
 # Getting-and-Cleaning-Data
 Final Project for the Coursera Getting and Cleaning Data Course
 
-The original instructions are reproduced in the Instructions section below. The project was completed using a single script called "run_analysis.R", which is described in the Code Explanations section. A codebook, which lists all of the variables selected to be included in final dataset, can be found in the file called "CodeBook.md".
+The original instructions are reproduced in the Instructions section below. The project was completed using a single script called "run_analysis.R", which is described in the Code Explanations section. A codebook, which lists all of the variables selected to be included in the final dataset, can be found in the file called "CodeBook.md".
 
 ## Instructions
 
