@@ -3,6 +3,8 @@ Final Project for the Coursera Getting and Cleaning Data Course
 
 The original instructions are reproduced in the Instructions section below. The project was completed using a single script called "run_analysis.R", which is described in the Code Explanations section. A codebook, which lists all of the variables selected to be included in the final dataset, can be found in the file called "CodeBook.md".
 
+The original dataset needs only modest changes to transform it into a tidy dataset. Firstly, A single observational unit is stored in two tables. These two sets must be combined using rbind(). Next, though each observation forms a row, that observation cannot be uniquely identified since the fixed variables of the experiment are excluded from the tables. These two fixed variables, subject_id and activity, needs be included in the new dataset using cbind(). Similarly, though each variable forms a column, no column headers are included and  must be added as well, again using cbind().
+
 ## Instructions
 
 >The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
